@@ -19,6 +19,9 @@ public class Base_Class {
 			driver = new FirefoxDriver();
 		}
 	}
+	
+	
+	
 	public static void geturl(String url) {
 		driver.get(url);
 		driver.manage().window().maximize();

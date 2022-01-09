@@ -14,6 +14,11 @@ import com.automation.pom.SignUp;
 public class RunnerClass extends Base_Class {
 	public static void main(String[] args) throws InterruptedException {
 		browsers("chrome");
+		
+		
+		
+		
+		
 		geturl("http://automationpractice.com/index.php");
 		SignUp si=new SignUp(driver);
 		sign(si.getSig());
