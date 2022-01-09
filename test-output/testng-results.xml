@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74" started-at="2022-01-08T18:32:26 IST" finished-at="2022-01-08T18:32:26 IST">
+    <groups>
+      <group name="Shopping">
+        <method signature="Grouping_Test.amazon()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="amazon" class="com.testng.features.Grouping_Test"/>
+        <method signature="Grouping_Test.flipkart()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="flipkart" class="com.testng.features.Grouping_Test"/>
+        <method signature="Grouping_Test.myntra()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="myntra" class="com.testng.features.Grouping_Test"/>
+      </group> <!-- Shopping -->
+    </groups>
+    <test name="Test" duration-ms="74" started-at="2022-01-08T18:32:26 IST" finished-at="2022-01-08T18:32:26 IST">
+      <class name="com.testng.features.Grouping_Test">
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="amazon" duration-ms="10" started-at="2022-01-08T18:32:26 IST" finished-at="2022-01-08T18:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="flipkart()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="flipkart" duration-ms="1" started-at="2022-01-08T18:32:26 IST" finished-at="2022-01-08T18:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method status="PASS" signature="myntra()[pri:0, instance:com.testng.features.Grouping_Test@bd8db5a]" name="myntra" duration-ms="5" started-at="2022-01-08T18:32:26 IST" finished-at="2022-01-08T18:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntra -->
+      </class> <!-- com.testng.features.Grouping_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
